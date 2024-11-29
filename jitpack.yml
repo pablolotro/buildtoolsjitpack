@@ -1,5 +1,8 @@
 jdk:
   - openjdk21
 before_install:
+  - sudo apt-get install tree
+  - tree
   - chmod +x buildtools.sh
   - ./buildtools.sh
+  - tree
