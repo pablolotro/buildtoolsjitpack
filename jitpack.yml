@@ -2,4 +2,4 @@ jdk:
   - openjdk21
 before_install:
   - chmod +x buildtools.sh
-  - buildtools.sh
+  - ./buildtools.sh
